@@ -8,7 +8,7 @@ class Driver {
     }
 }
 
-// Car class with dependency injection via constructor
+
 class Car {
     constructor(driver) {
         this.driver = driver;
@@ -19,7 +19,6 @@ class Car {
     }
 }
 
-// Creating instances and injecting dependencies
-const car = new Car(new Driver("John"));
+const car = new Car(new Driver("Ajmal"));
 
 car.start();
