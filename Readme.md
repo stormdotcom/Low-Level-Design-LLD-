@@ -10,8 +10,7 @@ This repository contains sample code demonstrating SOLID principles and Dependen
 - [Getting Started](#getting-started)
 - [Java Samples](#java-samples)
 - [JavaScript Samples](#javascript-samples)
-- [Contributing](#contributing)
-- [License](#license)
+
 
 ## Introduction
 
