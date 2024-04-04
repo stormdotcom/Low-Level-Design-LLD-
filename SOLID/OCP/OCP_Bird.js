@@ -1,4 +1,23 @@
-class Bird {
+class BirdNotFly {
+    constructor(name, size, weight, height, numOfWings) {
+        this.name = name;
+        this.size = size;
+        this.weight = weight;
+        this.height = height;
+        this.numOfWings = numOfWings
+    }
+    eat() {
+        console.log("eating food")
+    }
+    swim() {
+        console.log("swimming")
+    }
+    makeSound() {
+        throw new Error("makeSound method must be implemented.");
+    }
+}
+
+class BirdFly {
     constructor(name, size, weight, height, numOfWings) {
         this.name = name;
         this.size = size;
@@ -32,9 +51,12 @@ class Crow extends BirdFly {
     }
 }
 
-class Penguin extends Bird {
+class Penguin extends BirdNotFly {
     makeSound() {
-        console.log("ka kaa");
+        console.log("rrr rr");
+    }
+    walk() {
+        console.log("walking")
     }
 }
 const sparrow = new Sparrow()
@@ -44,12 +66,9 @@ sparrow.height = 10;
 sparrow.numOfWings = 2;
 sparrow.makeSound()
 
-const crow = new Crow();
-crow.name = "Crow";
-crow.makeSound()
 
 const penguin = new Penguin();
 
-penguin.fly()
-
+penguin.fly(); // no method called fly, penguins cant fly
+penguin.walk()
 
