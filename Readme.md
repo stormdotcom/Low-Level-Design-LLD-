@@ -3,28 +3,52 @@
 
 Sample code demonstrating SOLID principles and Dependency Injection, OOPs Sample Code implemented in both Java and JavaScript.
 
+
 ## Introduction
 
 SOLID is an acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. emphasizing the decoupling of high-level modules from low-level modules by introducing an abstraction layer between them.
 
-This repository contains sample code illustrating each of the SOLID principles and Dependency Inversion in both Java and JavaScript.
+This repository contains sample code illustrating each of the SOLID principles and Dependency Injection, OOPs in both Java and JavaScript.
 
-## Folder Structure
+### SOLID Principles: Guidelines for Better Software Systems
 
-```
-solid-and-dip-sample-code/
+1. **Maintainability**:
+   - Ensure Bug-Free Code
+   - Enhance Readability and Understandability
+   - Facilitate Easy Debugging and Maintenance
+
+2. **Extendability**:
+   - Enable Addition of New Features with Minimal Impact
+   - Promote Scalability and Adaptability to Future Requirements
+   - Support Seamless Integration of Enhancements
+
+3. **Reusability**:
+   - Encourage Componentization and Modularization
+   - Foster Creation of Highly Cohesive and Loosely Coupled Modules
+
+4. **Easily Testable**:
+    - Test Coverage should be their
+    
+5.  **Modular**
+    - Easy to read the code
+    - Easy to debug code
+
+
+
+`
+SOLID/
 ├── java/
-│   ├── single-responsibility/
-│   ├── open-closed/
-│   ├── liskov-substitution/
-│   ├── interface-segregation/
-│   ├── dependency-inversion/
+│   ├── SIP/
+│   ├── OCP/
+│   ├── LSP/
+│   ├── ISP/
+│   ├── DIP/
 └── js/
-    ├── single-responsibility/
-    ├── open-closed/
-    ├── liskov-substitution/
-    ├── interface-segregation/
-    └── dependency-inversion/
+├── SIP/
+├── OCP/
+├── LSP/
+├── ISP/
+└── DIP/
 ```
 
 ## Getting Started
@@ -45,8 +69,8 @@ To get a local copy of the sample code up and running, follow these steps:
 
 ## Java Samples
 
-- **Single Responsibility Principle (SRP):** Demonstrates how to design classes that have a single responsibility.
-- **Open/Closed Principle (OCP):** Shows how to design classes that are open for extension but closed for modification.
+- **Single Responsibility Principle (SRP [SRP](SRP/srp.md)):** Demonstrates how to design classes that have a single responsibility.
+- **Open/Closed Principle [OCP](SRP/ocp.md):** Shows how to design classes that are open for extension but closed for modification.
 - **Liskov Substitution Principle (LSP):** Illustrates how to use subclassing without introducing bugs.
 - **Interface Segregation Principle (ISP):** Demonstrates how to segregate interfaces to make them more focused.
 - **Dependency Inversion Principle (DIP):** Shows how to design modules that depend on abstractions rather than concrete implementations.
