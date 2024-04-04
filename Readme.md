@@ -33,9 +33,9 @@ This repository contains sample code illustrating each of the SOLID principles a
     - Easy to read the code
     - Easy to debug code
 
- - ##### Single Responsibility Principle [SRP](SRP/srp.md)
- - ##### Open/Closed Principle [OCP](OCP/ocp.md)
- - ##### Liskov Substitution Principle [LSP](LSP/lsp.md)
+ - ##### Single Responsibility Principle [SRP](SOLID/SRP/srp.md)
+ - ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
+ - ##### Liskov Substitution Principle [LSP](SOLID/LSP/lsp.md)
 
 
 ### Folder Directory
