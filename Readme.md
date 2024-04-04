@@ -1,5 +1,5 @@
 
-# SOLID Principles and Dependency Inversion Sample Code
+# SOLID Principles, Injection, OOPs Sample Code
 
 sample code demonstrating SOLID principles and Dependency Inversion implemented in both Java and JavaScript.
 
