@@ -33,8 +33,8 @@ This repository contains sample code illustrating each of the SOLID principles a
     - Easy to read the code
     - Easy to debug code
 
- Single Responsibility Principle [SRP](SRP/srp.md)
- Open/Closed Principle [OCP](OCP/ocp.md)
+ - #### Single Responsibility Principle [SRP](SRP/srp.md)
+ - #### Open/Closed Principle [OCP](OCP/ocp.md)
 
 ```
 SOLID/
