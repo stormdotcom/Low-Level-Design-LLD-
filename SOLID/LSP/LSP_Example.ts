@@ -3,6 +3,9 @@ abstract class BirdC {
     constructor(name: string, height: number) {
 
     }
+    eatFood() {
+        console.log("eating food")
+    }
 }
 
 
