@@ -33,7 +33,8 @@ This repository contains sample code illustrating each of the SOLID principles a
     - Easy to read the code
     - Easy to debug code
 
-
+ Single Responsibility Principle [SRP](SRP/srp.md)
+ Open/Closed Principle [OCP](OCP/ocp.md)
 
 ```
 SOLID/
@@ -69,8 +70,8 @@ To get a local copy of the sample code up and running, follow these steps:
 
 ## Java Samples
 
-- **Single Responsibility Principle (SRP [SRP](SRP/srp.md)):** Demonstrates how to design classes that have a single responsibility.
-- **Open/Closed Principle [OCP](SRP/ocp.md):** Shows how to design classes that are open for extension but closed for modification.
+- **Single Responsibility Principle (SRP):** Demonstrates how to design classes that have a single responsibility.
+- **Open/Closed Principle (OCP):** Shows how to design classes that are open for extension but closed for modification.
 - **Liskov Substitution Principle (LSP):** Illustrates how to use subclassing without introducing bugs.
 - **Interface Segregation Principle (ISP):** Demonstrates how to segregate interfaces to make them more focused.
 - **Dependency Inversion Principle (DIP):** Shows how to design modules that depend on abstractions rather than concrete implementations.
