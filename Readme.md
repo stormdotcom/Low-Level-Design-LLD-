@@ -65,11 +65,11 @@ To get a local copy of the sample code up and running, follow these steps:
    git clone https://github.com/stormdotcom/Low-Level-Design-LLD-
    ```
 
-2. Navigate to the `java` or `js` directory, depending on the language you want to explore.
+2. Navigate to the `java` or `root` ( for js)  directory, depending on the language you want to explore.
 
 3. Choose a specific SOLID principle or Dependency Inversion example folder.
 
-4. Follow the instructions in the respective README file for each example to understand the concept and explore the code.
+4. Explore the code.
 
 ## Java Samples
 
