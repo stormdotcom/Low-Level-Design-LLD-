@@ -34,7 +34,11 @@ This repository contains sample code illustrating each of the SOLID principles a
     - Easy to debug code
 
 @
+
 {% include_relative SOLID/SRP/srp.md %}
+
+
+
 
  - ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
  - ##### Liskov Substitution Principle [LSP](SOLID/LSP/lsp.md)
