@@ -3,20 +3,26 @@ class Student {
     constructor(name, age, address) {
         this.name = name;
         this.age = age;
-        this.address = address;
+        this.address = address; // add address node
     }
 
     toString() {
-        return `Student [name=${this.name}, age=${this.age}, address=${this.address}]`;
+        return `Student [name=${this.name}, age=${this.age}, address=${this.address.city}, ${this.address.zipCode} ]`;
     }
 }
 
+class Address {
+    constructor(city, zipCode) {
+        this.city = city;
+        this.zipCode = zipCode;
+    }
+}
 // StudentBuilder helper class
 class StudentBuilder {
     constructor() {
         this.name = '';
         this.age = 0;
-        this.address = '';
+        this.address = null;
     }
 
     setName(name) {
@@ -30,6 +36,7 @@ class StudentBuilder {
     }
 
     setAddress(address) {
+        // address node
         this.address = address;
         return this;
     }
@@ -43,9 +50,11 @@ class StudentBuilder {
 class Main {
     static main() {
         const builder = new StudentBuilder();
+        const address = new Address("New York", "10001");
         const student = builder.setName("John")
+
             .setAge(20)
-            .setAddress("123 Main St")
+            .setAddress(address)
             .build();
 
         console.log(student.toString());

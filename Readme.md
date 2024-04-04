@@ -1,7 +1,7 @@
 
 # SOLID Principles and Dependency Inversion Sample Code
 
-This repository contains sample code demonstrating SOLID principles and Dependency Inversion implemented in both Java and JavaScript.
+sample code demonstrating SOLID principles and Dependency Inversion implemented in both Java and JavaScript.
 
 ## Table of Contents
 
