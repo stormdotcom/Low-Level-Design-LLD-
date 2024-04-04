@@ -1,20 +1,11 @@
 
-# SOLID Principles, Injection, OOPs Sample Code
+# SOLID Principles, Dependency Injection, OOPs Sample Code
 
-sample code demonstrating SOLID principles and Dependency Inversion implemented in both Java and JavaScript.
-
-## Table of Contents
-
-- [Introduction](#introduction)
-- [Folder Structure](#folder-structure)
-- [Getting Started](#getting-started)
-- [Java Samples](#java-samples)
-- [JavaScript Samples](#javascript-samples)
-
+Sample code demonstrating SOLID principles and Dependency Injection, OOPs Sample Code implemented in both Java and JavaScript.
 
 ## Introduction
 
-SOLID is an acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. Dependency Inversion Principle (DIP) is one of the SOLID principles, emphasizing the decoupling of high-level modules from low-level modules by introducing an abstraction layer between them.
+SOLID is an acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. emphasizing the decoupling of high-level modules from low-level modules by introducing an abstraction layer between them.
 
 This repository contains sample code illustrating each of the SOLID principles and Dependency Inversion in both Java and JavaScript.
 
@@ -43,7 +34,7 @@ To get a local copy of the sample code up and running, follow these steps:
 1. Clone the repository:
 
    ```
-   git clone https://github.com/your-username/solid-and-dip-sample-code.git
+   git clone https://github.com/stormdotcom/Low-Level-Design-LLD-
    ```
 
 2. Navigate to the `java` or `js` directory, depending on the language you want to explore.
