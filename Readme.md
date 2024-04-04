@@ -39,7 +39,7 @@ This repository contains sample code illustrating each of the SOLID principles a
 
 
 
-
+ - ##### Single Responsibility Principle [SRP](SOLID/SRP/SRP.md)
  - ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
  - ##### Liskov Substitution Principle [LSP](SOLID/LSP/lsp.md)
  - ##### Interface Segregation Principle   [ISP](SOLID/ISP/isp.md)
