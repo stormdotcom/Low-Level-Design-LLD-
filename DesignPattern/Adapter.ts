@@ -59,7 +59,9 @@ const hdfcBank = new HDFCBank();
 const iciciBank = new ICICIBank();
 
 let BankAPI = new PhonePe(new HDFCAdapter(hdfcBank));
-BankAPI.makePayment(1000); // Output: HDFC Bank: Transferring Rs.1000
+BankAPI.makePayment(1000);
 
+
+// at somepoint i have chnage to ICIC bank so i can easily switch the bank api
 BankAPI = new PhonePe(new ICICIAdapter(iciciBank));
-BankAPI.makePayment(1500); // Output: ICICI Bank: Initiating payment of Rs.1500
+BankAPI.makePayment(1500);
