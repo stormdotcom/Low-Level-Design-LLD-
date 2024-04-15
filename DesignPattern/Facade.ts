@@ -27,7 +27,7 @@ class NotificationService {
 }
 
 // facade for Order Operations
-class OrderFacade {
+class OrderHelper {
     private ss: SellerService;
     private ps: PaymentService;
     private ls: LogisticsService;
@@ -58,18 +58,18 @@ class OrderFacade {
 
 // Amazon Main Class
 class Amazon {
-    private orderFacade: OrderFacade;
+    private oh: OrderHelper;
 
     constructor() {
-        this.orderFacade = new OrderFacade();
+        this.oh = new OrderHelper();
     }
 
     placeOrder(orderId: string, amount: number) {
-        this.orderFacade.createOrder(orderId, amount);
+        this.oh.createOrder(orderId, amount);
     }
 
     cancelOrder(orderId: string) {
-        this.orderFacade.cancelOrder(orderId);
+        this.oh.cancelOrder(orderId);
     }
 }
 
