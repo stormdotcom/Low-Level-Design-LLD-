@@ -51,12 +51,12 @@ class OrderHelper {
 
     cancelOrder(orderId: string) {
         console.log(`Cancelling order ${orderId}`);
-        // Logic to cancel order
+        // logic to cancel order
         console.log(`Order ${orderId} cancelled successfully`);
     }
 }
 
-// Amazon Main Class
+// amazon main class
 class Amazon {
     private oh: OrderHelper;
 
