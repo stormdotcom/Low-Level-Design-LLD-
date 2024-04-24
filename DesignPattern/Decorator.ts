@@ -21,7 +21,7 @@ abstract class NotificationDecorator implements Notifier {
     }
 }
 
-// doncrete decorator for SMS notification
+// concrete decorator for SMS notification
 class SMSDecorator extends NotificationDecorator {
     constructor(notifier: Notifier) {
         super(notifier);
