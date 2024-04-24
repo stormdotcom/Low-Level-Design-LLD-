@@ -1,9 +1,9 @@
-// Base Notifier interface
+// base notifier interface
 interface Notifier {
     send(message: string): void;
 }
 
-// Concrete component - Email Notifier
+// concrete component - email notifier
 class EmailNotifier implements Notifier {
     constructor(private emails: string[]) { }
 
@@ -12,7 +12,7 @@ class EmailNotifier implements Notifier {
     }
 }
 
-// Base decorator class
+// base decorator class
 abstract class NotificationDecorator implements Notifier {
     constructor(protected notifier: Notifier) { }
 
@@ -21,7 +21,7 @@ abstract class NotificationDecorator implements Notifier {
     }
 }
 
-// Concrete decorator for SMS notification
+// doncrete decorator for SMS notification
 class SMSDecorator extends NotificationDecorator {
     constructor(notifier: Notifier) {
         super(notifier);
@@ -33,7 +33,7 @@ class SMSDecorator extends NotificationDecorator {
     }
 }
 
-// Concrete decorator for Facebook notification
+// concrete decorator for facebook notification
 class FacebookDecorator extends NotificationDecorator {
     constructor(notifier: Notifier) {
         super(notifier);
@@ -45,7 +45,7 @@ class FacebookDecorator extends NotificationDecorator {
     }
 }
 
-// Concrete decorator for Slack notification
+// concrete decorator for Slack notification
 class SlackDecorator extends NotificationDecorator {
     constructor(notifier: Notifier) {
         super(notifier);
@@ -57,7 +57,7 @@ class SlackDecorator extends NotificationDecorator {
     }
 }
 
-// Example usage
+// usage in client
 const emailNotifier = new EmailNotifier(["user1@example.com", "user2@example.com"]);
 const smsFacebookNotifier = new FacebookDecorator(new SMSDecorator(emailNotifier));
 const allNotifiers = new SlackDecorator(smsFacebookNotifier);
