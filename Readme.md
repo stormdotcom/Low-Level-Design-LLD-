@@ -1,14 +1,14 @@
 
 # SOLID Principles, Dependency Injection, OOPs Sample Code
 
-Sample code demonstrating SOLID principles and Dependency Injection, OOPs Sample Code implemented in both Java and JavaScript.
+Sample code demonstrating SOLID principles and Dependency Injection, OOPs Sample Code implemented in both Java and JavaScript/TypeScript.
 
 
 ## Introduction
 
 SOLID is an acronym for five design principles intended to make software designs more understandable, flexible, and maintainable. emphasizing the decoupling of high-level modules from low-level modules by introducing an abstraction layer between them.
 
-This repository contains sample code illustrating each of the SOLID principles and Dependency Injection, OOPs in both Java and JavaScript.
+This repository contains sample code illustrating each of the SOLID principles and Dependency Injection, OOPs in both Java and JavaScript/TypeScript.
 
 ### SOLID Principles: Guidelines for Better Software Systems
 
@@ -50,7 +50,7 @@ SOLID/
 │   ├── LSP/
 │   ├── ISP/
 │   ├── DIP/
-└── js/
+└── js/ts
 ├── SIP/
 ├── OCP/
 ├── LSP/
@@ -68,7 +68,7 @@ To get a local copy of the sample code up and running, follow these steps:
    git clone https://github.com/stormdotcom/Low-Level-Design-LLD-
    ```
 
-2. Navigate to the `java` or `root` ( for js)  directory, depending on the language you want to explore.
+2. Navigate to the `java` or `root` ( for js/ts)  directory, depending on the language you want to explore.
 
 3. Choose a specific SOLID principle or Dependency Inversion example folder.
 
@@ -82,10 +82,10 @@ To get a local copy of the sample code up and running, follow these steps:
 - **Interface Segregation Principle (ISP):** Demonstrates how to segregate interfaces to make them more focused.
 - **Dependency Inversion Principle (DIP):** Shows how to design modules that depend on abstractions rather than concrete implementations.
 
-## JavaScript Samples
+## JavaScript/TypeScript Samples
 
-- **Single Responsibility Principle (SRP):** JavaScript examples demonstrating classes with single responsibilities.
-- **Open/Closed Principle (OCP):** JavaScript examples showing how to extend functionality without modifying existing code.
-- **Liskov Substitution Principle (LSP):** JavaScript examples illustrating substitution of derived classes for base classes.
-- **Interface Segregation Principle (ISP):** JavaScript examples demonstrating how to split interfaces to keep them focused.
-- **Dependency Inversion Principle (DIP):** JavaScript examples showing how to invert dependencies to decouple components.
+- **Single Responsibility Principle (SRP):** JavaScript/TypeScript examples demonstrating classes with single responsibilities.
+- **Open/Closed Principle (OCP):** JavaScript/TypeScript examples showing how to extend functionality without modifying existing code.
+- **Liskov Substitution Principle (LSP):** JavaScript/TypeScript examples illustrating substitution of derived classes for base classes.
+- **Interface Segregation Principle (ISP):** JavaScript/TypeScript examples demonstrating how to split interfaces to keep them focused.
+- **Dependency Inversion Principle (DIP):** JavaScript/TypeScript examples showing how to invert dependencies to decouple components.
