@@ -57,8 +57,15 @@ class OrderHelper {
 }
 
 // amazon main class
-class Amazon {
+class AmazonMain {
+    static getInstance() {
+        throw new Error("Method not implemented.");
+    }
+    orderPlaced() {
+        throw new Error("Method not implemented.");
+    }
     private oh: OrderHelper;
+    static instance: any;
 
     constructor() {
         this.oh = new OrderHelper();
@@ -74,6 +81,6 @@ class Amazon {
 }
 
 // client class
-const amazon = new Amazon();
-amazon.placeOrder("12345", 100);
-amazon.cancelOrder("12345");
+const amazonObj = new AmazonMain();
+amazonObj.placeOrder("12345", 100);
+amazonObj.cancelOrder("12345");
