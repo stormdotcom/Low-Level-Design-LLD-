@@ -26,17 +26,17 @@ class HDFCAdapter implements PaymentGateway {
     }
 }
 
-// ICICI Bank's existing interface
-interface ICICIBank {
+// ICIC Bank's existing interface
+interface ICICBank {
     initiatePayment(amount: number): void;
 }
 
-// Adapter for ICICI Bank to implement PaymentGateway interface
-class ICICIAdapter implements PaymentGateway {
-    constructor(private iciciBank: ICICIBank) { }
+// Adapter for ICIC Bank to implement PaymentGateway interface
+class ICICAdapter implements PaymentGateway {
+    constructor(private icicBank: ICICBank) { }
 
     pay(amount: number) {
-        this.iciciBank.initiatePayment(amount);
+        this.icicBank.initiatePayment(amount);
     }
 }
 
@@ -47,21 +47,21 @@ class HDFCBank implements HDFCBank {
     }
 }
 
-// ICICI Bank implementation
-class ICICIBank implements ICICIBank {
+// ICIC Bank implementation
+class ICICBank implements ICICBank {
     initiatePayment(amount: number) {
-        console.log(`ICICI Bank: Initiating payment of Rs.${amount}`);
+        console.log(`ICIC Bank: Initiating payment of Rs.${amount}`);
     }
 }
 
 // client
 const hdfcBank = new HDFCBank();
-const iciciBank = new ICICIBank();
+const icicBank = new ICICBank();
 
 let BankAPI = new PhonePe(new HDFCAdapter(hdfcBank));
 BankAPI.makePayment(1000);
 
 
-// at somepoint i have chnage to ICIC bank so i can easily switch the bank api
-BankAPI = new PhonePe(new ICICIAdapter(iciciBank));
+// at some point i have change to ICIC bank so i can easily switch the bank api
+BankAPI = new PhonePe(new ICICAdapter(icicBank));
 BankAPI.makePayment(1500);
