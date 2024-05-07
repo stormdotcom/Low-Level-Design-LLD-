@@ -34,7 +34,7 @@ This repository contains sample code illustrating each of the SOLID principles a
     - Easy to debug code
 
 
-{% include_relative (SOLID/SRP/srp.md) %}
+
 
  - ##### Single Responsibility Principle [SRP](SOLID/SRP/SRP.md)
  - ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
