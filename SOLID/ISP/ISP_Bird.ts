@@ -1,4 +1,4 @@
-// Define interfaces for different behaviors
+// define interfaces for different behaviors
 
 interface Flyable {
     fly(): void;

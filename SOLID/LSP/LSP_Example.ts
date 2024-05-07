@@ -1,4 +1,4 @@
-// Base class representing a bird
+// \base class representing a bird
 abstract class BirdC {
     constructor(name: string, height: number) {
 
@@ -35,7 +35,7 @@ class Pigeon extends BirdC implements Flyable, Sound {
 }
 
 
-class CrowC extends Bird implements Flyable, Sound {
+class CrowC extends BirdC implements Flyable, Sound {
     makeSound(): void {
         console.log('Crow is cawing.');
     }
