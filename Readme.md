@@ -50,12 +50,23 @@ SOLID/
 │   ├── LSP/
 │   ├── ISP/
 │   ├── DIP/
-└── js/ts
+└── js or ts
 ├── SIP/
 ├── OCP/
 ├── LSP/
 ├── ISP/
 └── DIP/
+DesignPattern/
+├── FlyWeight/
+├── Observer/
+├── Adapter/
+├── Decorator/
+├── Facade/
+├── Factory/
+├── Prototype/
+├── SingleTon/
+├── Strategy/
+└── UML-Diagram/
 ```
 
 ## Getting Started
