@@ -59,4 +59,5 @@ bulletTypes.forEach(function (type, index) {
     var bullet = bulletFactory.getBullet(type);
     bullet.fly();
     console.log("Bullet at position (".concat(bulletPositions[index].x, ", ").concat(bulletPositions[index].y, ")"));
+    console.log(" \n");
 });
