@@ -42,12 +42,6 @@ This repository contains sample code illustrating each of the SOLID principles a
 
 ```
 SOLID/
-├── java/
-│   ├── SIP/
-│   ├── OCP/
-│   ├── LSP/
-│   ├── ISP/
-│   ├── DIP/
 └── js or ts
 ├── SIP/
 ├── OCP/
@@ -73,6 +67,12 @@ java/
 │   ├── Adapter/
 │   ├── Decorator/
 │   ├── Facade/
+├── SOLID/
+│   ├── SIP/
+│   ├── OCP/
+│   ├── LSP/
+│   ├── ISP/
+│   ├── DIP/
 ```
 
 ## Getting Started
