@@ -1,8 +1,6 @@
-
 # SOLID Principles, Dependency Injection, OOPs Sample Code
 
 Sample code demonstrating SOLID principles and Dependency Injection, OOPs Sample Code implemented in both Java and JavaScript/TypeScript.
-
 
 ## Introduction
 
@@ -13,35 +11,35 @@ This repository contains sample code illustrating each of the SOLID principles a
 ### SOLID Principles: Guidelines for Better Software Systems
 
 1. **Maintainability**:
+
    - Ensure Bug-Free Code
    - Enhance Readability and Understandability
    - Facilitate Easy Debugging and Maintenance
 
 2. **Extendability**:
+
    - Enable Addition of New Features with Minimal Impact
    - Promote Scalability and Adaptability to Future Requirements
    - Support Seamless Integration of Enhancements
 
 3. **Reusability**:
+
    - Encourage Componentization and Modularization
    - Foster Creation of Highly Cohesive and Loosely Coupled Modules
 
 4. **Easily Testable**:
-    - Test Coverage should be their
-    
-5.  **Modular**
-    - Easy to read the code
-    - Easy to debug code
+   - Test Coverage should be their
+5. **Modular**
+   - Easy to read the code
+   - Easy to debug code
 
-
-
-
- - ##### Single Responsibility Principle [SRP](SOLID/SRP/SRP.md)
- - ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
- - ##### Liskov Substitution Principle [LSP](SOLID/LSP/lsp.md)
- - ##### Interface Segregation Principle   [ISP](SOLID/ISP/isp.md)
+- ##### Single Responsibility Principle [SRP](SOLID/SRP/SRP.md)
+- ##### Open/Closed Principle [OCP](SOLID/OCP/ocp.md)
+- ##### Liskov Substitution Principle [LSP](SOLID/LSP/lsp.md)
+- ##### Interface Segregation Principle [ISP](SOLID/ISP/isp.md)
 
 ### Folder Directory
+
 ```
 SOLID/
 ├── java/
@@ -67,6 +65,14 @@ DesignPattern/
 ├── SingleTon/
 ├── Strategy/
 └── UML-Diagram/
+
+java/
+├── DesignPattern/
+│   ├── FlyWeight/
+│   ├── Observer/
+│   ├── Adapter/
+│   ├── Decorator/
+│   ├── Facade/
 ```
 
 ## Getting Started
@@ -79,7 +85,7 @@ To get a local copy of the sample code up and running, follow these steps:
    git clone https://github.com/stormdotcom/Low-Level-Design-LLD-
    ```
 
-2. Navigate to the `java` or `root` ( for js/ts)  directory, depending on the language you want to explore.
+2. Navigate to the `java` or `root` ( for js/ts) directory, depending on the language you want to explore.
 
 3. Choose a specific SOLID principle or Dependency Inversion example folder.
 
